@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.minecrafthex.pl',
-  base: '/',
+  site: 'https://github.com/CapybitCompany',
+  base: '/HexagonTournamentPageTest/',
   integrations: [sitemap()],
 });
