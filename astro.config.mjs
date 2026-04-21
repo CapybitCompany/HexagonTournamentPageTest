@@ -32,8 +32,8 @@ const PRIORITY_MAP = {
 };
 
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://www.minecrafthex.pl',
-  base: process.env.BASE_PATH || '/',
+  site: process.env.SITE_URL || 'https://capybitcompany.github.io/',
+  base: process.env.BASE_PATH || '/HexagonTournamentPageTest/',
   compressHTML: true,
   prefetch: {
     prefetchAll: true,
